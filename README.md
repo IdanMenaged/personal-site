@@ -4,8 +4,11 @@
 ## blog
 ### run in development
 ```cmd
-cd my-new-blog
+cd blog
 gatsby develop
 ```
-frontend will now run at localhost:8000
-a graphql api will be created at localhost:8000/___graphql
+will open at localhost:8000
+a graphql api will open at localhost:8000/___graphql
+netflify cms will open at localhost:8000/admin
+
+NOTE: if you get the error `Error: error:0308010C:digital envelope routines::unsupported` please go [here](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)
